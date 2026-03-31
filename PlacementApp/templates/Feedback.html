@@ -1,0 +1,180 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Smart Campus Placement System</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --sams-navy: #004080;   
+            --sams-green: #004d26;  
+            --sams-red: #c00000;    
+            --text-dark: #333333;
+            --overlay-white: rgba(255, 255, 255, 0.96);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+        body {
+            background: url("{% static 'images/back2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        /* --- HEADER --- */
+        .header-top {
+            width: 100%;
+            background: #ffffff;
+            padding: 10px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 5px solid var(--sams-green);
+        }
+
+        .logo-main { display: flex; align-items: center; gap: 15px; }
+        .logo-main img { height: 60px; }
+        .college-name h1 { color: var(--sams-red); font-size: 20px; font-weight: 800; line-height: 1; }
+        .college-name p { font-size: 10px; color: var(--sams-navy); font-weight: bold; }
+
+        /* --- NAVIGATION --- */
+        nav {
+            background: var(--sams-navy);
+            padding: 0 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .menu_nav ul { display: flex; list-style: none; justify-content: center; }
+        .menu_nav ul li a { 
+            text-decoration: none; color: white; font-size: 12px; font-weight: 600; 
+            padding: 15px 20px; display: block; transition: 0.3s; 
+        }
+        .menu_nav ul li a:hover { background: rgba(255, 255, 255, 0.1); color: #ffcc00; }
+
+        /* --- FEEDBACK CARD --- */
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: var(--overlay-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border-top: 6px solid var(--sams-navy);
+        }
+
+        .form-header {
+            background: #f8f9fa;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        form { padding: 40px; }
+        
+        .label-group { margin-bottom: 10px; font-weight: 600; color: var(--sams-navy); display: block; }
+        
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            min-height: 150px;
+            resize: vertical;
+            margin-bottom: 25px;
+            background: #fff;
+        }
+
+        textarea:focus { border-color: var(--sams-navy); outline: none; box-shadow: 0 0 5px rgba(0,64,128,0.1); }
+
+        .btn-submit {
+            background: var(--sams-navy);
+            color: white;
+            padding: 12px 40px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-submit:hover { background: var(--sams-red); }
+
+        .msg-info { color: var(--sams-red); text-align: center; margin-bottom: 20px; font-weight: 600; font-size: 14px; }
+    </style>
+
+    <script>
+        function validate(formObj) {
+            if(formObj.t1.value.trim().length == 0) {
+                alert("Please share the challenges you are facing.");
+                formObj.t1.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+    <header class="header-top">
+        <div class="logo-main">
+            <img src="{% static 'images/logo.jpg' %}" alt="Samskruti Logo">
+            <div class="college-name">
+                <h1>SAMSKRUTI</h1>
+                <p>COLLEGE OF ENGINEERING & TECHNOLOGY</p>
+            </div>
+        </div>
+        <div class="accreditation-logos" style="opacity: 0.7;">
+            <img src="{% static 'images/aicte.jpg' %}" alt="AICTE" height="35">
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu_nav">
+            <ul>
+                <li><a href="{% url 'UpdateProfile' %}">Profile</a></li>
+                <li><a href="{% url 'Recommendation' %}">Job Recommendation</a></li>
+                <li><a href="{% url 'JobStatus' %}">Job Status</a></li>
+                <li><a href="{% url 'chatbot' %}">Placement AI</a></li>
+                <li><a href="{% url 'Feedback' %}" style="border-bottom: 3px solid #ffcc00;">Feedback</a></li>
+                <li><a href="{% url 'index' %}" style="background: var(--sams-red);">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container animate__animated animate__fadeInUp">
+        <div class="form-header">
+            <h2 style="color: var(--sams-navy);">Student Feedback</h2>
+            <p style="font-size: 13px; color: var(--sams-red); margin-top: 5px;">Share the challenges you face during placements</p>
+        </div>
+
+        <form name="f1" method="post" action="{% url 'FeedbackAction' %}" onsubmit="return validate(this);">
+            {% csrf_token %}
+            
+            <div class="msg-info">{{ data|safe }}</div>
+
+            <label class="label-group">Describe your challenges or suggestions:</label>
+            <textarea name="t1" placeholder="Type your feedback here..."></textarea>
+
+            <button type="submit" class="btn-submit">Submit Feedback</button>
+        </form>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px; color: #666; font-size: 12px;">
+        &copy; 2026 Samskruti Placement Cell | We value your input
+    </div>
+
+</body>
+</html>

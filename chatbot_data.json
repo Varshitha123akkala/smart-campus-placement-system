@@ -1,0 +1,4002 @@
+[
+    {
+        "question": "hello",
+        "answer": "Hello! How can I help you?"
+    },
+    {
+        "question": "hi",
+        "answer": "Hi there! What can I do for you?"
+    },
+    {
+        "question": "hey",
+        "answer": "Hey! Need any help?"
+    },
+    {
+        "question": "good morning",
+        "answer": "Good morning! How can I assist you today?"
+    },
+    {
+        "question": "good evening",
+        "answer": "Good evening! How can I help?"
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "javascript details",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "django tutorial",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "define javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "define javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "define python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "django tutorial",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "learn css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript details",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "database meaning",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "define django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "django tutorial",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "django tutorial",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "django tutorial",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "machine learning info",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript details",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database meaning",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database meaning",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "machine learning info",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "javascript details",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "database meaning",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "javascript details",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "tell me about html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "learn css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "define django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database meaning",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "html basics",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "django tutorial",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "machine learning details",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css info",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript details",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "ai tutorial",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "explain flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "define api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "javascript info",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "define machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "flask info",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "api meaning",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "learn database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "flask meaning",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "define python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "python basics",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "machine learning info",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "define database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "python info",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "javascript basics",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "api info",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "css basics",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "html details",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "what is database",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "api tutorial",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "database basics",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "ai meaning",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "python tutorial",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "define css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "flask basics",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "django info",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "machine learning basics",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "machine learning tutorial",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "css tutorial",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "javascript tutorial",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "explain django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "python meaning",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "tell me about javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "django basics",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "tell me about django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "flask tutorial",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "learn javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "ai info",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html meaning",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "tell me about python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "what is flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "api basics",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "database tutorial",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "html info",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "explain javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "flask details",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "api details",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "explain html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "define html",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "html tutorial",
+        "answer": "HTML is used to create web page structure."
+    },
+    {
+        "question": "python details",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "learn django",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "what is ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "django details",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "tell me about machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "css details",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "tell me about flask",
+        "answer": "Flask is a lightweight Python web framework."
+    },
+    {
+        "question": "explain machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "django meaning",
+        "answer": "Django is a Python web framework used to build secure and scalable apps."
+    },
+    {
+        "question": "database details",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "define ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai details",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "learn machine learning",
+        "answer": "Machine Learning allows systems to learn from data and improve automatically."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "what is python",
+        "answer": "Python is a powerful programming language used for web, AI, and more."
+    },
+    {
+        "question": "database info",
+        "answer": "A database is used to store and manage data efficiently."
+    },
+    {
+        "question": "learn api",
+        "answer": "An API allows communication between software systems."
+    },
+    {
+        "question": "learn ai",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    },
+    {
+        "question": "ai basics",
+        "answer": "Artificial Intelligence enables machines to mimic human intelligence."
+    }
+]

@@ -1,0 +1,20 @@
+1) Enabling Moving Services in Enterprise Computing
+2) Flexible Computing: A New Framework for Improving Resource Allocation and Scheduling in Elastic Computing
+3) Analysis of Cloud Service Providers and Computing Services in Modem IT Infrastructure
+4) Cost-Optimized Task Offloading for Dependent Applications in Collaborative Edge and Cloud Computing
+5) Research on Efficient Processing Algorithm for Engineering Cost Data Using Cloud Computing Platform
+6) Service Level Agreement -Driven Dynamic Resource Provisioning Strategy for Cloud Computing
+7) A Review of Modern Computing Paradigms: Cloud, Fog, and Edge
+8) Industrial IoT Smart Manufacturing Systems based on Cloud Computing Energy Efficiency Analysis using Machine Learning Algorithms
+9) Optimized Hybrid Cryptographic Technique Using Symmetric and Asymmetric Encryption for Cloud Computing
+10) Queue Modeling for Geospatial Service on Edge-Cloud Architecture
+11) Enhancing the Security of Healthcare Data in Cloud Computing Environments
+12) Cloud Computing in Enhancing the Efficiency and Integration of Alternative Energy Systems
+13) A Green Cloud-Based Framework for Energy-Efficient Task Scheduling Using Carbon Intensity Data for Heterogeneous Cloud Servers
+14) Implementing Resource-Aware Scheduling Algorithm for Improving Cost Optimization in Cloud Computing
+15) Intelligent Computing for Healthcare: A Survey
+16) Forecasting Trends in Cloud-Edge Computing: Unleashing the Power of Attention Mechanisms
+17) Analysis of Encryption Techniques for Secure Data in Cloud Environment
+18) Deep Learning Model with Optimization Strategies for DDoS Attack Detection in Cloud Computing
+19) Advanced Machine Learning Approach for Cyber Attack Detection in Cloud Computing
+20) Enhancing Data Security and Privacy in Cloud Computing: A Survey of Modern Techniques

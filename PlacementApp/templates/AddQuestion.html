@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Question - Smart Campus Placement System</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --sams-navy: #004080;   
+            --sams-green: #004d26;  
+            --sams-red: #c00000;    
+            --overlay-white: rgba(255, 255, 255, 0.96);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+        body {
+            background: url("{% static 'images/back2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        /* --- HEADER & NAV --- */
+        .header-top {
+            width: 100%;
+            background: #ffffff;
+            padding: 12px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 5px solid var(--sams-green);
+        }
+
+        .logo-main { display: flex; align-items: center; gap: 15px; }
+        .logo-main img { height: 60px; }
+        .college-name h1 { color: var(--sams-red); font-size: 20px; font-weight: 800; line-height: 1; }
+        .college-name p { font-size: 10px; color: var(--sams-navy); font-weight: bold; }
+
+        nav { background: var(--sams-navy); padding: 0 40px; position: sticky; top: 0; z-index: 1000; }
+        .menu_nav ul { display: flex; list-style: none; justify-content: center; }
+        .menu_nav ul li a { 
+            text-decoration: none; color: white; font-size: 12px; font-weight: 600; 
+            padding: 15px 20px; display: block; transition: 0.3s; 
+        }
+        .menu_nav ul li a:hover { background: rgba(255, 255, 255, 0.1); color: #ffcc00; }
+
+        /* --- FORM CONTAINER --- */
+        .container {
+            max-width: 750px;
+            margin: 40px auto;
+            background: var(--overlay-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border-top: 6px solid var(--sams-navy);
+            padding-bottom: 20px;
+        }
+
+        .form-header {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        form { padding: 30px 50px; }
+
+        .form-group { margin-bottom: 18px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 6px; color: var(--sams-navy); font-size: 14px; }
+        
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        textarea { height: 80px; resize: vertical; }
+        input:focus, select:focus, textarea:focus { border-color: var(--sams-navy); outline: none; box-shadow: 0 0 5px rgba(0,64,128,0.1); }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .btn-submit {
+            background: var(--sams-navy);
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-submit:hover { background: var(--sams-red); }
+        .msg-display { text-align: center; color: var(--sams-red); font-weight: 600; margin-bottom: 15px; font-size: 14px; }
+
+    </style>
+
+    <script>
+        function validate(formObj) {
+            if(!formObj.t1.value.trim()) { alert("Please Enter the question"); formObj.t1.focus(); return false; }
+            if(!formObj.t2.value.trim()) { alert("Please Enter Option A"); formObj.t2.focus(); return false; }
+            if(!formObj.t3.value.trim()) { alert("Please Enter Option B"); formObj.t3.focus(); return false; }
+            if(!formObj.t4.value.trim()) { alert("Please Enter Option C"); formObj.t4.focus(); return false; }
+            if(!formObj.t5.value.trim()) { alert("Please Enter Option D"); formObj.t5.focus(); return false; }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+    <header class="header-top">
+        <div class="logo-main">
+            <img src="{% static 'images/logo.jpg' %}" alt="Logo">
+            <div class="college-name">
+                <h1>SAMSKRUTI</h1>
+                <p>ASSESSMENT MANAGEMENT</p>
+            </div>
+        </div>
+        <div style="font-size: 11px; background: var(--sams-red); color: white; padding: 4px 10px; border-radius: 5px; font-weight: 600;">
+            ADMIN PORTAL
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu_nav">
+            <ul>
+                <li><a href="{% url 'PostJob' %}">Post Jobs</a></li>
+                <li><a href="{% url 'AddQuestion' %}" style="border-bottom: 3px solid #ffcc00;">Add Test Question</a></li>
+                <li><a href="{% url 'ViewPerformance' %}">View Performance</a></li>
+                <li><a href="{% url 'index' %}" style="background: var(--sams-red); margin-left: 15px;">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container animate__animated animate__fadeInUp">
+        <div class="form-header">
+            <h2 style="color: var(--sams-navy);">Add New Question</h2>
+            <p style="font-size: 12px; color: #666; margin-top: 5px;">Build your placement assessment bank</p>
+        </div>
+
+        <form name="f1" method="post" action="{% url 'AddQuestionAction' %}" onsubmit="return validate(this);">
+            {% csrf_token %}
+            
+            <div class="msg-display">{{ data|safe }}</div>
+
+            <div class="form-group">
+                <label>Question Statement</label>
+                <textarea name="t1" placeholder="Enter the technical or aptitude question here..."></textarea>
+            </div>
+
+            <div class="options-grid">
+                <div class="form-group">
+                    <label>Option A</label>
+                    <input type="text" name="t2" placeholder="First choice">
+                </div>
+                <div class="form-group">
+                    <label>Option B</label>
+                    <input type="text" name="t3" placeholder="Second choice">
+                </div>
+                <div class="form-group">
+                    <label>Option C</label>
+                    <input type="text" name="t4" placeholder="Third choice">
+                </div>
+				
+                <div class="form-group">
+                    <label>Option D</label>
+                    <input type="text" name="t5" placeholder="Fourth choice">
+                </div>
+            </div>
+
+            <div class="form-group" style="max-width: 250px; margin: 0 auto 25px auto;">
+                <label style="text-align: center;">Correct Answer</label>
+                <select name="t6">
+                    <option value="A">Option A</option>
+                    <option value="B">Option B</option>
+                    <option value="C">Option C</option>
+                    <option value="D">Option D</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-submit">Add Question to Bank</button>
+        </form>
+    </div>
+
+</body>
+</html>

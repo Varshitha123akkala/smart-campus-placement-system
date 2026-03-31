@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Profile - Smart Campus Placement System</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --sams-navy: #004080;   
+            --sams-green: #004d26;  
+            --sams-red: #c00000;    
+            --text-dark: #333333;
+            --overlay-white: rgba(255, 255, 255, 0.96);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+        body {
+            background: url("{% static 'images/back2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        /* --- HEADER --- */
+        .header-top {
+            width: 100%;
+            background: #ffffff;
+            padding: 10px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 5px solid var(--sams-green);
+        }
+
+        .logo-main { display: flex; align-items: center; gap: 15px; }
+        .logo-main img { height: 60px; }
+        .college-name h1 { color: var(--sams-red); font-size: 20px; font-weight: 800; line-height: 1; }
+        .college-name p { font-size: 10px; color: var(--sams-navy); font-weight: bold; }
+        
+        .accreditation-logos img { height: 35px; margin-left: 10px; }
+
+        /* --- NAVIGATION --- */
+        nav {
+            background: var(--sams-navy);
+            padding: 0 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .menu_nav ul { display: flex; list-style: none; justify-content: center; }
+        .menu_nav ul li a { 
+            text-decoration: none; color: white; font-size: 12px; font-weight: 600; 
+            padding: 15px 20px; display: block; transition: 0.3s; 
+        }
+        .menu_nav ul li a:hover { background: rgba(255, 255, 255, 0.1); color: #ffcc00; }
+
+        /* --- FORM LAYOUT --- */
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: var(--overlay-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border-top: 6px solid var(--sams-navy);
+            padding-bottom: 30px;
+        }
+
+        .form-header {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        form { padding: 30px; }
+        
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 8px; color: var(--sams-navy); }
+        
+        input[type="text"], input[type="file"], select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .btn-submit {
+            background: var(--sams-navy);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            transition: 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-submit:hover { background: var(--sams-red); }
+
+        .message-box { color: var(--sams-red); text-align: center; margin-bottom: 20px; font-weight: 600; }
+    </style>
+
+    <script>
+        function validate(formObj) {
+            if(formObj.t1.value.length == 0) {
+                alert("Please update experience");
+                formObj.t1.focus();
+                return false;
+            }
+            if(formObj.t2.value.length == 0) {
+                alert("Please upload modified resume");
+                formObj.t2.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+    <header class="header-top">
+        <div class="logo-main">
+            <img src="{% static 'images/logo.jpg' %}" alt="Logo">
+            <div class="college-name">
+                <h1>SAMSKRUTI</h1>
+                <p>COLLEGE OF ENGINEERING & TECHNOLOGY</p>
+            </div>
+        </div>
+       <div class="accreditation-logos">
+            <img src="{% static 'images/naac.jpg' %}" alt="NAAC">
+            <img src="{% static 'images/nba.jpg' %}" alt="NBA">
+            <img src="{% static 'images/aicte.jpg' %}" alt="AICTE">
+            <img src="{% static 'images/jntuh.jpg' %}" alt="JNTUH">
+        </div>
+    </header>
+
+    <nav class="animate__animated animate__fadeInDown">
+        <div class="menu_nav">
+            <ul>
+                <li><a href="{% url 'UpdateProfile' %}">Profile</a></li>
+                <li><a href="{% url 'Recommendation' %}">Job Recommendation ML</a></li>
+                <li><a href="{% url 'JobStatus' %}">Job Status</a></li>
+                <li><a href="{% url 'Feedback' %}">Feedback</a></li>
+                <li><a href="{% url 'index' %}" style="background: var(--sams-red); color: white; border-radius: 4px; margin-left: 10px;">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container animate__animated animate__fadeInUp">
+        <div class="form-header">
+            <h2 style="color: var(--sams-navy);">Update Profile Screen</h2>
+            <p style="font-size: 13px; color: #666;">Modify your current professional details and resume</p>
+        </div>
+
+        <form name="f1" method="post" action="{% url 'ModifyProfileAction' %}" enctype="multipart/form-data" onsubmit="return validate(this);">
+            {% csrf_token %}
+            
+            <div class="message-box">{{ data|safe }}</div>
+
+            <div class="form-group">
+                <label>Update Experience</label>
+                <input name="t1" type="text" placeholder="Enter your updated experience (e.g. 2 Years)">
+            </div>
+
+            <div class="form-group">
+                <label>Upload Modified Resume</label>
+                <input name="t2" type="file">
+            </div>
+
+            <div class="form-group">
+                <label>Update Technical Skills (Hold Ctrl to select multiple)</label>
+                <select name="t3" multiple style="height: 150px;">
+                    <option value="C">C</option>
+                    <option value="CPP">CPP</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="Database">Database</option>
+                    <option value="Embedded">Embedded</option>
+                    <option value="VLSI">VLSI</option>
+                    <option value="Web Technologies">Web Technologies</option>
+                    <option value="Android">Android</option>
+                    <option value="IOS">IOS</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit Changes</button>
+        </form>
+    </div>
+
+</body>
+</html>

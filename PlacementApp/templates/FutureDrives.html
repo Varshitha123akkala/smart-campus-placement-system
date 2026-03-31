@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Drives - Smart Campus Placement System</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --sams-navy: #004080;   
+            --sams-green: #004d26;  
+            --sams-red: #c00000;    
+            --primary-color: #6c63ff; 
+            --text-dark: #333333;
+            --overlay-white: rgba(255, 255, 255, 0.96);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: url("{% static 'images/back2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--text-dark);
+            min-height: 100vh;
+        }
+
+        /* --- HEADER (SAMSKRUTI BRANDING) --- */
+        .header-top {
+            width: 100%;
+            background: #ffffff;
+            padding: 10px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 5px solid var(--sams-green);
+            flex-wrap: wrap;
+        }
+
+        .logo-main { display: flex; align-items: center; gap: 15px; }
+        .logo-main img { height: 65px; }
+        .college-name h1 { color: var(--sams-red); font-size: 20px; font-weight: 800; line-height: 1; }
+        .college-name p { font-size: 10px; color: var(--sams-navy); font-weight: bold; }
+        .ugc-tag { background: var(--sams-red); color: white; font-size: 10px; padding: 2px 8px; border-radius: 10px; display: inline-block; margin-top: 3px; }
+        
+        .accreditation-logos { display: flex; align-items: center; gap: 12px; }
+        .accreditation-logos img { height: 40px; object-fit: contain; }
+
+        /* --- NAVIGATION --- */
+        nav {
+            width: 100%;
+            background: var(--sams-navy);
+            padding: 0 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .menu_nav ul { 
+            display: flex; 
+            list-style: none; 
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .menu_nav ul li a { 
+            text-decoration: none; 
+            color: #ffffff; 
+            font-size: 12px; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            padding: 15px 18px; 
+            display: block; 
+            transition: 0.3s; 
+        }
+        .menu_nav ul li a:hover { background: rgba(255, 255, 255, 0.1); color: #ffcc00; }
+
+        /* --- MAIN CONTENT CONTAINER --- */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: var(--overlay-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+            border-top: 6px solid var(--sams-navy);
+        }
+
+        .content-body {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .data-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid var(--sams-red);
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            color: #333;
+            line-height: 1.6;
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+        }
+
+        /* --- BUTTONS --- */
+        .btn-back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: var(--sams-navy);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-back:hover {
+            background-color: var(--sams-red);
+            transform: translateY(-2px);
+        }
+
+        .footer-tag {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .header-top { justify-content: center; gap: 10px; }
+            .accreditation-logos { display: none; }
+            .menu_nav ul li a { padding: 10px; font-size: 11px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-top">
+        <div class="logo-main">
+            <img src="{% static 'images/logo.jpg' %}" alt="Samskruti Logo">
+            <div class="college-name">
+                <h1>SAMSKRUTI</h1>
+                <p>COLLEGE OF ENGINEERING & TECHNOLOGY</p>
+                <span class="ugc-tag">UGC-Autonomous Institution</span>
+            </div>
+        </div>
+
+        <div class="accreditation-logos">
+            <img src="{% static 'images/naac.jpg' %}" alt="NAAC">
+            <img src="{% static 'images/nba.jpg' %}" alt="NBA">
+            <img src="{% static 'images/aicte.jpg' %}" alt="AICTE">
+            <img src="{% static 'images/jntuh.jpg' %}" alt="JNTUH">
+        </div>
+    </header>
+
+    <nav class="animate__animated animate__fadeInDown">
+        <div class="menu_nav">
+            <ul>
+                <li><a href="{% url 'UpdateProfile' %}">Profile</a></li>
+                <li><a href="{% url 'Recommendation' %}">Job Recommendations</a></li>
+                <li><a href="{% url 'JobStatus' %}">Job Status</a></li>
+                <li><a href="{% url 'chatbot' %}">Placement AI</a></li>
+                <li><a href="{% url 'Feedback' %}">Feedback</a></li>
+                <li><a href="{% url 'FutureDrivesAnnouncement' %}">Future Announcement</a></li>
+                <li><a href="{% url 'index' %}" style="background: var(--sams-red); color: white; border-radius: 4px; margin-left: 10px;">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container animate__animated animate__fadeInUp">
+        <div class="content-body">
+            <h2 style="color: var(--sams-navy); margin-bottom: 5px;">Future Placement Drives</h2>
+            <p style="color: var(--sams-red); font-weight: 600; font-size: 14px; margin-bottom: 25px;">Stay updated with upcoming opportunities</p>
+
+            <div class="data-card">
+                {{ data|safe }}
+            </div>
+
+
+            <div class="footer-tag">
+                &copy; 2026 Samskruti Placement Cell | All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

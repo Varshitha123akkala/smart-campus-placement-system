@@ -1,0 +1,307 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samskruti - New User Signup</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        :root {
+            --sams-navy: #004080;   
+            --sams-green: #004d26;  
+            --sams-red: #c00000;    
+            --primary-color: #6c63ff; 
+            --text-dark: #333333;
+            --overlay-white: rgba(255, 255, 255, 0.96);
+        }
+
+        * {
+            margin: 0; padding: 0; box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: url("{% static 'images/back2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--text-dark);
+            min-height: 100vh;
+        }
+
+        /* HEADER & NAV */
+        .header-top {
+            width: 100%; background: #ffffff; padding: 10px 40px;
+            display: flex; justify-content: space-between; align-items: center;
+            border-top: 5px solid var(--sams-green);
+        }
+
+        .logo-main { display: flex; align-items: center; gap: 15px; }
+        .logo-main img { height: 75px; }
+        .college-name h1 { color: var(--sams-red); font-size: 22px; font-weight: 800; line-height: 1; }
+        .college-name p { font-size: 10px; color: var(--sams-navy); font-weight: bold; }
+        .ugc-tag { background: var(--sams-red); color: white; font-size: 11px; padding: 2px 10px; border-radius: 12px; display: inline-block; margin-top: 5px; }
+        
+        .accreditation-logos { display: flex; align-items: center; gap: 15px; }
+        .accreditation-logos img { height: 50px; object-fit: contain; }
+
+        nav {
+            width: 100%; background: var(--sams-navy);
+            padding: 0 40px; display: flex; align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .menu_nav ul { display: flex; list-style: none; }
+        .menu_nav ul li a { text-decoration: none; color: #ffffff; font-size: 13px; font-weight: 600; text-transform: uppercase; padding: 15px 20px; display: block; transition: 0.3s; }
+        .menu_nav ul li a:hover { color: #ffcc00; }
+
+        /* CONTAINER & SPLIT LAYOUT */
+        .container {
+            max-width: 1150px;
+            margin: 40px auto;
+            background: var(--overlay-white);
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            padding: 50px 40px;
+            border-bottom: 6px solid var(--sams-navy);
+        }
+
+        .login-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 50px;
+        }
+
+        /* LEFT SIDE CONTENT */
+        .login-info {
+            flex: 1;
+        }
+
+        .login-info h2 {
+            color: var(--sams-navy);
+            font-size: 28px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .login-info p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #444;
+        }
+
+        .info-list {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .info-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+            font-size: 14px;
+        }
+
+        .info-list li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: var(--sams-green);
+            font-weight: bold;
+        }
+
+        .notice-box {
+            background: #eef2f7;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--sams-red);
+        }
+
+        .notice-box h4 {
+            color: var(--sams-red);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .notice-box p {
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+
+        /* RIGHT SIDE FORM CARD */
+        .registration-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            width: 100%;
+            max-width: 550px;
+            border-top: 4px solid var(--sams-red);
+        }
+
+        h2.form-title {
+            font-size: 1.5rem;
+            color: var(--sams-navy);
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .form-table { width: 100%; }
+        .form-table td { padding: 8px; }
+        
+        label { font-size: 13px; font-weight: 600; color: #555; }
+
+        input[type="text"], input[type="password"], select {
+            width: 100%; padding: 10px; border: 1px solid #ddd;
+            border-radius: 6px; font-size: 14px; transition: 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--sams-red); outline: none; box-shadow: 0 0 8px rgba(192, 0, 0, 0.1);
+        }
+
+        .cta-button {
+            width: 100%; padding: 14px; background: var(--sams-red);
+            color: white; border: none; border-radius: 30px;
+            font-weight: 600; font-size: 16px; cursor: pointer;
+            transition: 0.4s; text-transform: uppercase;
+            box-shadow: 0 4px 15px rgba(192, 0, 0, 0.3);
+            margin-top: 15px;
+        }
+
+        .cta-button:hover {
+            background: var(--sams-navy);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 64, 128, 0.3);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 992px) {
+            .login-wrapper { flex-direction: column; align-items: center; }
+            .login-info { text-align: center; }
+            .info-list li { text-align: left; }
+            .accreditation-logos { display: none; }
+        }
+    </style>
+
+    <script language="javascript">
+        function validate(formObj) {
+            if(formObj.t1.value.length==0) { alert("Please Enter username"); formObj.t1.focus(); return false; }
+            if(formObj.t2.value.length==0) { alert("Please Enter password"); formObj.t2.focus(); return false; }
+            if(formObj.t3.value.length==0) { alert("Please Enter Contact No"); formObj.t3.focus(); return false; }
+            if(isNaN(formObj.t3.value)){ alert("Contact No must be numeric"); formObj.t3.focus(); return false; }
+            if(formObj.t4.value.length==0) { alert("Please Enter Email Id"); formObj.t4.focus(); return false; }
+            var filter = /^([a-zA-Z0-9_\.\-])+\@([a-z]+\.)+(com)+$/;
+            if (!filter.test(formObj.t4.value)) { alert('Please enter valid email address'); formObj.t4.focus(); return false; }
+            if(formObj.t5.value.length==0) { alert("Please enter address"); formObj.t5.focus(); return false; }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+    <header class="header-top">
+        <div class="logo-main">
+            <img src="{% static 'images/logo.jpg' %}" alt="Samskruti Logo">
+            <div class="college-name">
+                <h1>SAMSKRUTI</h1>
+                <p>COLLEGE OF ENGINEERING & TECHNOLOGY</p>
+                <span class="ugc-tag">UGC-Autonomous Institution</span>
+            </div>
+        </div>
+
+        <div class="accreditation-logos">
+            <img src="{% static 'images/naac.jpg' %}" alt="NAAC">
+            <img src="{% static 'images/nba.jpg' %}" alt="NBA">
+            <img src="{% static 'images/aicte.jpg' %}" alt="AICTE">
+            <img src="{% static 'images/jntuh.jpg' %}" alt="JNTUH">
+        </div>
+    </header>
+
+    <nav class="animate__animated animate__fadeInDown">
+        <div class="menu_nav">
+            <ul>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'CompanyLogin' %}">Company</a></li>
+                <li><a href="{% url 'TPOLogin' %}">TPO</a></li>
+                <li><a href="{% url 'StudentLogin' %}">Student</a></li>
+                <li><a href="{% url 'Register' %}" style="background: var(--sams-red); border-radius: 4px; padding: 5px 15px; margin: 10px 0;">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container animate__animated animate__fadeInUp">
+        <div class="login-wrapper">
+            
+            <div class="login-info">
+                <h2>Join Our Placement Network</h2>
+                <p>Register today to access the Samskruti TPO ecosystem. Whether you are a student looking for a dream job or a company seeking top talent, our portal connects you to the right opportunities.</p>
+                
+                <ul class="info-list">
+                    <li><strong>Students:</strong> Get notifications for upcoming drives and internship opportunities.</li>
+                    <li><strong>Companies:</strong> Post requirements and shortlist candidates directly.</li>
+                    <li><strong>TPO:</strong> Coordinate recruitment workflows and institutional records.</li>
+                    <li><strong>Growth:</strong> Access training materials and placement statistics.</li>
+                </ul>
+
+                <div class="notice-box">
+                    <h4>Registration Notice</h4>
+                    <p>Please ensure all details are accurate. Official credentials will be sent to your registered email address after verification.</p>
+                </div>
+            </div>
+
+            <div class="registration-card">
+                <h2 class="form-title">Create Account</h2>
+                
+                {% if data %}
+                    <div style="color: red; text-align: center; margin-bottom: 20px; font-weight: 500;">{{ data|safe }}</div>
+                {% endif %}
+
+                <form name="f1" method="post" action="{% url 'RegisterAction' %}" enctype="multipart/form-data" onsubmit="return validate(this);">
+                    {% csrf_token %}
+                    <table class="form-table">
+                        <tr>
+                            <td><label>Username</label><input type="text" name="t1" placeholder="Full Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Password</label><input type="password" name="t2" placeholder="Min. 6 characters"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Contact Number</label><input name="t3" type="text" placeholder="10-digit mobile number"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email ID</label><input type="text" name="t4" placeholder="official@example.com"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Address</label><input type="text" name="t5" placeholder="City / State"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>User Type</label>
+                                <select name="t6">
+                                    <option value="Student">Student</option>
+                                    <option value="Company">Company / Recruiter</option>
+                                    <option value="TPO">Placement Officer</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">
+                                <input type="submit" value="Register Now" class="cta-button">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

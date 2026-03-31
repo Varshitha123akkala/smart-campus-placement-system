@@ -1,0 +1,44 @@
+create database placement;
+use placement;
+
+create table register(username varchar(40) primary key,
+password varchar(40),
+contact_no varchar(20),
+email varchar(50), 
+address varchar(180),
+usertype varchar(45));
+
+create table profile(student_name varchar(40),
+qualification varchar(80),
+Graduation_percentage varchar(20),
+passout_date varchar(20),
+experience varchar(80),
+resume varchar(100),
+skills varchar(200),
+score varchar(20));
+
+create table jobs(job_id int primary key,
+company_name varchar(80),
+job_description varchar(40),
+salary varchar(20),
+post_date varchar(20),
+last_applicant_date varchar(20),
+skills_required varchar(180));
+
+create table feedback(student_name varchar(40),
+challenges_face varchar(200));
+
+create table questions(question varchar(200),
+option_a varchar(150),
+option_b varchar(150),
+option_c varchar(150),
+option_d varchar(150),
+correct_option varchar(10));
+
+
+create table applyjob(job_id int,
+student_name varchar(40),
+status varchar(30));
+
+
+
